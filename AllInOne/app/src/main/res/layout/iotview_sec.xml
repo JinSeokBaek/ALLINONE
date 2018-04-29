@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/iot_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="기기 이름을 입력시오" />
+
+    <EditText
+        android:id="@+id/iot_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/iot_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="기기 고유번호를 입력히사오" />
+
+    <EditText
+        android:id="@+id/iot_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
